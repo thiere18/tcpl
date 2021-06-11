@@ -1,4 +1,7 @@
 import { Router } from "express";
+import { getRepository } from "typeorm";
+import { User } from "../entity/User";
+
 const router = Router();
 
 import {
@@ -9,7 +12,13 @@ import {
   deleteUser
 } from "../controllers/user.controller";
 
-router.get("/users", getUsers);
+router.get("/", async (req, res) => {
+  // const users = await getRepository(User).find();
+  // console.log(users)
+  res.render('home.twig',{message:"bonjour tout le monde ",title:"happy you do"});
+})
+
+
 router.get("/users/:id", getUser);
 router.post("/users", createUser);
 router.put("/users/:id", updateUser);
