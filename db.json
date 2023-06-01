@@ -1,179 +1,185 @@
 [
    {
-      "delivery_id": 300000315,
-      "last_event": {
-         "eventTime": "2023-05-26 10:55:18",
-         "locationContext": "På(fyll)",
-         "eventType": {
-            "apiKey": "001",
-            "description": "Transport av din pakke er bestilt",
-            "i18nKey": "event.type.pub.import.edi.information.received"
+      "delivery_id":300000315,
+      "last_event":{
+         "eventTime":"2023-05-26 10:55:18",
+         "locationContext":"På(fyll)",
+         "eventType":{
+            "apiKey":"001",
+            "description":"Transport av din pakke er bestilt",
+            "i18nKey":"event.type.pub.import.edi.information.received"
          },
-         "eventGroup": {
-            "id": "1",
-            "name": "event.type.group.import"
+         "eventGroup":{
+            "id":"1",
+            "name":"event.type.group.import"
          }
       },
-      "helthjem_response": {
-         "shipmentId": "(401)70724762416517355",
-         "freightProductId": 1,
-         "parties": [
+      "helthjem_response":{
+         "shipmentId":"(401)70724762416517355",
+         "freightProductId":1,
+         "parties":[
             {
-               "type": "consignee",
-               "name": "Jørgen Holstad",
-               "countryCode": "NO",
-               "postalName": "OSLO",
-               "zipCode": "0687",
-               "address": "ØSTBYVEIEN 7",
-               "phone1": "4794144412",
-               "email": "jorgen.holstad@schibsted.com"
+               "type":"consignee",
+               "name":"Jørgen Holstad",
+               "countryCode":"NO",
+               "postalName":"OSLO",
+               "zipCode":"0687",
+               "address":"ØSTBYVEIEN 7",
+               "phone1":"4794144412",
+               "email":"jorgen.holstad@schibsted.com"
             },
             {
-               "type": "consignor",
-               "name": "pafyll.com",
-               "countryCode": "NO",
-               "zipCode": "0570"
+               "type":"consignor",
+               "name":"pafyll.com",
+               "countryCode":"NO",
+               "zipCode":"0570"
             }
          ],
-         "items": [
+         "items":[
             {
-               "itemNumber": 1,
-               "trackingReference": "(00)370724762416517363",
-               "contents": "1 x TØYVASK",
-               "properties": {
-                  "ProductType": "Soap",
-                  "shortItemIdentifier": "...7363"
+               "itemNumber":1,
+               "trackingReference":"(00)370724762416517363",
+               "contents":"1 x TØYVASK",
+               "properties":{
+                  "ProductType":"Soap",
+                  "shortItemIdentifier":"...7363"
                },
-               "articles": []
+               "articles":[
+                  
+               ]
             }
          ],
-         "properties": {
-            "productName": "helthjem standard",
-            "routeAddress": "TVETENVEIEN 158",
-            "routeDescription": "BUDSENTRAL TVEITA",
-            "routeName": "23712",
-            "routing": "19-0-x23712x491",
-            "routingCode": "1"
+         "properties":{
+            "productName":"helthjem standard",
+            "routeAddress":"TVETENVEIEN 158",
+            "routeDescription":"BUDSENTRAL TVEITA",
+            "routeName":"23712",
+            "routing":"19-0-x23712x491",
+            "routingCode":"1"
          },
-         "orderId": 100022247
+         "orderId":100022247
       }
    },
    {
-      "delivery_id": 300000314,
-      "last_event": {
-         "eventTime": "2023-05-25 19:12:48",
-         "locationContext": "På(fyll)",
-         "eventType": {
-            "apiKey": "001",
-            "description": "Transport av din pakke er bestilt",
-            "i18nKey": "event.type.pub.import.edi.information.received"
+      "delivery_id":300000314,
+      "last_event":{
+         "eventTime":"2023-05-25 19:12:48",
+         "locationContext":"På(fyll)",
+         "eventType":{
+            "apiKey":"001",
+            "description":"Transport av din pakke er bestilt",
+            "i18nKey":"event.type.pub.import.edi.information.received"
          },
-         "eventGroup": {
-            "id": "1",
-            "name": "event.type.group.import"
+         "eventGroup":{
+            "id":"1",
+            "name":"event.type.group.import"
          }
       },
-      "helthjem_response": {
-         "shipmentId": "(401)70724762416073110",
-         "freightProductId": 1,
-         "parties": [
+      "helthjem_response":{
+         "shipmentId":"(401)70724762416073110",
+         "freightProductId":1,
+         "parties":[
             {
-               "type": "consignee",
-               "name": "Marita Solli Løvoll",
-               "countryCode": "NO",
-               "postalName": "ÅLESUND",
-               "zipCode": "6011",
-               "address": "VASSTRANDVEGEN 18",
-               "phone1": "4745485017",
-               "email": "marita_solli@hotmail.com"
+               "type":"consignee",
+               "name":"Marita Solli Løvoll",
+               "countryCode":"NO",
+               "postalName":"ÅLESUND",
+               "zipCode":"6011",
+               "address":"VASSTRANDVEGEN 18",
+               "phone1":"4745485017",
+               "email":"marita_solli@hotmail.com"
             },
             {
-               "type": "consignor",
-               "name": "pafyll.com",
-               "countryCode": "NO",
-               "zipCode": "0570"
+               "type":"consignor",
+               "name":"pafyll.com",
+               "countryCode":"NO",
+               "zipCode":"0570"
             }
          ],
-         "items": [
+         "items":[
             {
-               "itemNumber": 1,
-               "trackingReference": "(00)370724762416073128",
-               "contents": "1 x TØYVASK, 1 x HÅNDSÅPE",
-               "properties": {
-                  "ProductType": "Soap",
-                  "shortItemIdentifier": "...3128"
+               "itemNumber":1,
+               "trackingReference":"(00)370724762416073128",
+               "contents":"1 x TØYVASK, 1 x HÅNDSÅPE",
+               "properties":{
+                  "ProductType":"Soap",
+                  "shortItemIdentifier":"...3128"
                },
-               "articles": []
+               "articles":[
+                  
+               ]
             }
          ],
-         "properties": {
-            "productName": "helthjem standard",
-            "routeAddress": "POSTVEGEN 13(POLARIS TRYKK, BREIVIKA ) 13",
-            "routeDescription": "INNE",
-            "routeName": "50610",
-            "routing": "65-0/964-668-x50610x1628",
-            "routingCode": "3"
+         "properties":{
+            "productName":"helthjem standard",
+            "routeAddress":"POSTVEGEN 13(POLARIS TRYKK, BREIVIKA ) 13",
+            "routeDescription":"INNE",
+            "routeName":"50610",
+            "routing":"65-0/964-668-x50610x1628",
+            "routingCode":"3"
          },
-         "orderId": 99970420
+         "orderId":99970420
       }
    },
    {
-      "delivery_id": 300000313,
-      "last_event": {
-         "eventTime": "2023-05-25 11:19:31",
-         "locationContext": "På(fyll)",
-         "eventType": {
-            "apiKey": "001",
-            "description": "Transport av din pakke er bestilt",
-            "i18nKey": "event.type.pub.import.edi.information.received"
+      "delivery_id":300000313,
+      "last_event":{
+         "eventTime":"2023-05-25 11:19:31",
+         "locationContext":"På(fyll)",
+         "eventType":{
+            "apiKey":"001",
+            "description":"Transport av din pakke er bestilt",
+            "i18nKey":"event.type.pub.import.edi.information.received"
          },
-         "eventGroup": {
-            "id": "1",
-            "name": "event.type.group.import"
+         "eventGroup":{
+            "id":"1",
+            "name":"event.type.group.import"
          }
       },
-      "helthjem_response": {
-         "shipmentId": "(401)70724762415738669",
-         "freightProductId": 1,
-         "parties": [
+      "helthjem_response":{
+         "shipmentId":"(401)70724762415738669",
+         "freightProductId":1,
+         "parties":[
             {
-               "type": "consignee",
-               "name": "Solenne Roudot",
-               "countryCode": "NO",
-               "postalName": "OSLO",
-               "zipCode": "0678",
-               "address": "MANGLERUDVEIEN 94",
-               "phone1": "4793481014",
-               "email": "solenne.roudot@gmail.com"
+               "type":"consignee",
+               "name":"Solenne Roudot",
+               "countryCode":"NO",
+               "postalName":"OSLO",
+               "zipCode":"0678",
+               "address":"MANGLERUDVEIEN 94",
+               "phone1":"4793481014",
+               "email":"solenne.roudot@gmail.com"
             },
             {
-               "type": "consignor",
-               "name": "pafyll.com",
-               "countryCode": "NO",
-               "zipCode": "0570"
+               "type":"consignor",
+               "name":"pafyll.com",
+               "countryCode":"NO",
+               "zipCode":"0570"
             }
          ],
-         "items": [
+         "items":[
             {
-               "itemNumber": 1,
-               "trackingReference": "(00)370724762415738677",
-               "contents": "1 x DUSJSÅPE, 2 x HÅNDSÅPE",
-               "properties": {
-                  "ProductType": "Soap",
-                  "shortItemIdentifier": "...8677"
+               "itemNumber":1,
+               "trackingReference":"(00)370724762415738677",
+               "contents":"1 x DUSJSÅPE, 2 x HÅNDSÅPE",
+               "properties":{
+                  "ProductType":"Soap",
+                  "shortItemIdentifier":"...8677"
                },
-               "articles": []
+               "articles":[
+                  
+               ]
             }
          ],
-         "properties": {
-            "productName": "helthjem standard",
-            "routeAddress": "RYENSTUBBEN 7",
-            "routeDescription": "BUDSENTRAL RYEN 1",
-            "routeName": "23312",
-            "routing": "19-0-x23312x1201",
-            "routingCode": "1"
+         "properties":{
+            "productName":"helthjem standard",
+            "routeAddress":"RYENSTUBBEN 7",
+            "routeDescription":"BUDSENTRAL RYEN 1",
+            "routeName":"23312",
+            "routing":"19-0-x23312x1201",
+            "routingCode":"1"
          },
-         "orderId": 99922212
+         "orderId":99922212
       }
    }
 ]
